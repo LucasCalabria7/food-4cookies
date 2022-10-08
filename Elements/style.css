@@ -30,6 +30,14 @@ header {
     justify-content: space-between;
 }
 
+
+li {
+    display: flex;
+    list-style: none;
+    font-size: 3vh;
+}
+
+
 .toolbar-items {
     display: flex;
     width: 93vw;
@@ -83,12 +91,6 @@ a:hover::after {
 #search::placeholder{
 font-size: 1rem;
 text-align: center;
-}
-
-li {
-    display: flex;
-    list-style: none;
-    font-size: 3vh;
 }
 
 .slider {
@@ -181,7 +183,21 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
-    height: 60vh;
+    gap: 1.5rem;
+    height: 50vh;
     width: 100vw;
+    padding-right: 4vw;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sale {
+    width: 400px;
+    height: 235px;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
